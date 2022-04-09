@@ -46,7 +46,9 @@ a {
     padding-right: 3rem;
     padding-left: 1rem;
 }
-
+#address{
+    width:auto;
+}
 #white_pin {
     background: url("./assets/sprite/white_pin.png") no-repeat;
     color: #d6d6d6;
@@ -64,7 +66,12 @@ a {
     margin: 0.3rem;
     padding: 0.2rem;
 }
-
+.search-bar__item{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
 #search-bar h6 {
     font-size: 1.2rem;
     line-height: 1.4rem;
@@ -127,6 +134,7 @@ a {
     justify-content: space-between;
     align-items: center;
     width: 68vw;
+    margin-left:3rem;
 }
 
 .navigation3>* {
