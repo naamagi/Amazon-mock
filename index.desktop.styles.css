@@ -1,0 +1,577 @@
+@import url("https://cdn.jsdelivr.net/gh/GoCloudHub/font-amazon-ember/fonts/amazonember/amazonember.css");
+
+html, body {
+    width: 100vw;
+    height: 100%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+}
+
+#part1 {
+    width: 100vw;
+    height: auto;
+}
+
+
+
+#search-bar {
+    display: flex;
+    height: 6rem;
+    width: 100vw;
+    background-color: #000;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    padding-right: 3rem;
+    padding-left: 1rem;
+}
+
+#white_pin {
+    background: url("./assets/sprite/white_pin.png") no-repeat;
+    color: #d6d6d6;
+    background-size: 350px;
+    font-size: 14px;
+    left: 2px;
+    top: 8px;
+    background-position: -71px -378px;
+    width: 15px;
+    height: 18px;
+    margin-top: 8px;
+}
+
+#search-bar>* {
+    margin: 0.3rem;
+    padding: 0.2rem;
+}
+
+#search-bar h6 {
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    font-weight: 400;
+}
+
+#search-bar h4 {
+
+    font-size: 14px;
+    line-height: 15px;
+    font-weight: 700;
+
+}
+
+#search {
+    background-color: #fff;
+    width: 5.5rem;
+    height: 4rem;
+}
+
+#input_search {
+    height: 4rem;
+    width: 80rem;
+}
+
+#flag {
+    background: url("./assets/sprite/flag.png") no-repeat;
+    background-position: 0px -130px;
+    width: 24px;
+    height: 18px;
+}
+
+
+#flag_arrow {
+    background: url("./assets/sprite/down_arrow_for_flag.png") no-repeat;
+    background-position: -182px -325px;
+    margin-left: none;
+    padding-left: none;
+    width: 15px;
+    height: 27px;
+}
+
+#deliver_to, #accounts_lists, #cart {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+#navigation-bar {
+    display: flex;
+    height: 4rem;
+    width: 100vw;
+    background-color: #232f3e;
+    color: var(--NAV2-TEXT);
+}
+
+.navigation3 {
+    display: flex;
+    color: #d6d6d6;
+    justify-content: space-between;
+    align-items: center;
+    width: 68vw;
+}
+
+.navigation3>* {
+    color: #d6d6d6;
+    display: inline-block;
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+
+#coupon-bar {
+    height: 4rem;
+    width: 100vw;
+
+
+    justify-content: space-between;
+    font-size: 1.2rem;
+    display: flex;
+    background-color: #f9f8f8;
+}
+
+#upper_ad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-decoration: none;
+    color: #000;
+    font-size: 1.3rem;
+}
+
+#bread-crumbs {
+    display: flex;
+    height: 4rem;
+    width: 100vw;
+    padding: 2rem;
+
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+#bread-crumbs * {
+    margin: 0.5rem;
+    text-decoration: none;
+    color: #000;
+    font-size: 1.2rem;
+}
+
+#search-bar__item1 {
+    background: url(./assets/sprite/amazon-logo.png) no-repeat;
+    background-position: 2.4% 9.8%;
+    width: 113px;
+    height: 50px;
+}
+
+#submit {
+    width: 4.5rem;
+    height: 4.0rem;
+    border: 1px solid black;
+    border-left: none;
+    border-radius: 3px;
+    background: url(./assets/sprite/amazon-logo.png) no-repeat;
+    background-position: 0.2% 68%;
+    width: 4.5rem;
+    height: 4.0rem;
+    background-color: rgb(248, 193, 89);
+
+}
+
+#cart_and_items {
+    display: flex;
+    flex-direction: column;
+}
+
+#cart {
+    display: flex;
+    flex-direction: row;
+}
+
+#cart_and_items {
+    position: relative;
+}
+
+#items_in_cart {
+    margin-top: 2rem;
+
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    width: 19px;
+    right: auto;
+    top: 6px;
+    color: #f08804;
+    left: 17px;
+    position: absolute;
+    font-size: 18px;
+    line-height: 16px;
+    justify-content: center;
+    font-weight: 700;
+    text-align: center;
+    height: 1.2rem;
+}
+
+#cart_icon {
+    background: url(./assets/sprite/amazon-logo.png) no-repeat;
+    background-position: 2% 83%;
+    width: 50px;
+    height: 50px;
+
+}
+
+#cart_text {
+    margin-top: 1rem;
+}
+
+#part2 {
+    display: flex;
+    width: 100vw;
+    height: auto;
+    line-height: 3rem;
+    font-size: 1.4rem;
+    color: #0f1111;
+    margin: 1rem;
+    position: relative;
+}
+
+#part2__picture {
+    display: flex;
+    width: 45vw;
+    align-items: flex-start;
+    position: relative;
+}
+
+#picture__side-pictures {
+    list-style: none;
+    width: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.picture__side-picture {
+    width: 4rem;
+    height: 4rem;
+    padding: 1rem 1rem;
+    border: 1px solid black;
+    margin: 6px;
+}
+
+#picture__side-picture1 {
+    background: url("assets/images/left_images/1.jpg") no-repeat center center/cover;
+}
+
+
+#picture__side-picture2 {
+    background: url("assets/images/left_images/2.jpg") no-repeat center center/cover;
+}
+
+
+#picture__side-picture3 {
+    background: url("assets/images/left_images/3.jpg") no-repeat center center/cover;
+
+}
+
+#picture__side-picture4 {
+    background: url("assets/images/left_images/4.jpg") no-repeat center center/cover;
+}
+
+#picture__side-picture5 {
+    background: url("assets/images/left_images/5.jpg") no-repeat center center/cover;
+}
+
+#picture__side-picture6 {
+    background: url("assets/images/left_images/6.jpg") no-repeat center center/cover;
+}
+
+#picture__side-picture7 {
+    background: url("https://m.media-amazon.com/images/I/B1SW3p-ysPS.SS40_BG85,85,85_BR-120_PKdp-play-icon-overlay__.jpg") no-repeat center center/cover;
+}
+
+#picture__main-picture {
+    width: 61.3rem;
+    height: 61.3rem;
+    margin-left: 1rem;
+
+}
+
+#picture__main-picture img {
+    width: 61.3rem;
+    height: 61.3rem;
+    margin-left: 1rem;
+    ;
+    background: url("assets/images/left_images/1.jpg") no-repeat center center/cover;
+    position: relative;
+}
+
+
+#product-information {
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+    padding: 1rem
+}
+
+#main_header {
+    height: auto;
+    width: 50rem;
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 3.2rem;
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    align-items: center;
+}
+
+.pin {
+    font-size: 14px;
+    line-height: 20px;
+    display: inline-block;
+    margin-right: 5px;
+    margin-top: 2px;
+    width: 14px;
+    height: 14px;
+}
+
+#visit, .rating, #deliver_to_israel, #secure, #eligible {
+    color: rgb(0, 113, 133);
+}
+
+.five_stars {
+    background: url(./assets/sprite/stars.png) no-repeat;
+    background-position: -166px -36px;
+    height: 18px;
+    width: 80px;
+
+    display: inline-block;
+    position: relative;
+    vertical-align: text-top;
+
+}
+
+
+#cart_icon {
+    background: url(./assets/sprite/amazon-logo.png) no-repeat;
+    background-position: 2% 83%;
+    width: 50px;
+    height: 50px;
+
+}
+
+.down_arrow {
+    background: url(./assets/sprite/amazon-logo.png) no-repeat;
+    background-position: 2% 83%;
+    width: 50px;
+    height: 50px;
+}
+
+.other_options {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.other_options a {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 1px;
+    flex-flow: nowrap;
+    height: 5rem;
+    width: 11rem;
+    margin-right: 2rem;
+    ;
+}
+
+.other_options__pic img {
+    height: 3.6rem;
+    width: 3.6rem;
+    margin-top: 0.7rem;
+
+}
+
+
+.sizes {
+    width: 100%;
+    display: flex;
+
+}
+
+
+#ul_sizes_first_col {
+    max-width: 12rem;
+    list-style: none;
+}
+
+#ul_sizes_second_col {
+    list-style: none;
+}
+
+#about_this_item li {
+    font-size: 1.4rem;
+    margin-left: 2rem;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    list-style: disc;
+    color: rgb(15, 17, 17);
+    overflow-wrap: break-word;
+}
+
+#purchase-details {
+    width: 20vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#purchase-details__container {
+    border: 1px solid rgb(208, 208, 208);
+    margin: 2rem;
+    margin-right: 4rem;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.big_price {
+    color: rgb(177, 39, 4);
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+}
+
+#qty_btn {
+
+    background-color: rgb(212, 211, 211);
+    border-radius: 20px;
+    padding: 0.4rem;
+    box-shadow: 8px 8;
+    margin: 0.5rem;
+    align-self: flex-start;
+    font-size: 1.1rem;
+}
+
+#qty {
+
+    background-color: white;
+    width: 3.5rem;
+
+}
+
+#add_to_cart {
+    background-color: rgb(252, 214, 100);
+    border-radius: 20px;
+    padding: 0.7rem;
+    margin: 0.5rem;
+}
+
+#buy_now {
+    background-color: orange;
+    border-radius: 20px;
+    padding: 0.7rem;
+    margin: 0.5rem;
+}
+
+#secure {
+    text-decoration: none;
+}
+
+#ships_from {
+    width: 100%;
+    display: flex;
+
+
+}
+
+#ships_from * {
+    font-size: 1.2rem;
+}
+
+#ships_from_first_col {
+    width: 40%;
+    list-style: none;
+}
+
+#ships_from_second_col {
+    list-style: none;
+}
+
+#btn_add_to_list {
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    text-align: left;
+}
+
+#social_media {
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+    margin-right: 1rem;
+}
+
+#mail {
+    background: url("./assets/sprite/mail.png") no-repeat;
+    background-position: -256px -220px;
+    width: 19px;
+    height: 17px;
+}
+
+#facebook {
+    background: url("./assets/sprite/mail.png") no-repeat;
+    background-position: -237px -151px;
+    width: 17px;
+    height: 17px;
+}
+
+#twitter {
+    background: url("./assets/sprite/mail.png") no-repeat;
+    background-position: -193px -105px;
+    width: 18px;
+    height: 17px;
+}
+
+#pinterest {
+    background: url("./assets/sprite/mail.png") no-repeat;
+    background-position: -138px -14px;
+    width: 17px;
+    height: 17px;
+}
+
+hr {
+    color: rgb(15, 17, 17);
+    background-color: transparent;
+    display: block;
+    height: 1px;
+    border-width: 1px 0px 0px;
+    border-top-style: solid;
+    border-top-color: rgb(231, 231, 231);
+    line-height: 19px;
+    margin-top: 0px;
+    margin-bottom: 14px;
+}

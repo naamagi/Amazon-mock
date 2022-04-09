@@ -1,0 +1,16 @@
+:root {
+    /* --HEADER_BLUE:; */
+    --NAV1-TEXT: #fff;
+    --NAV2-TEXT: #d6d6d6;
+    --NAV1-BACKGROUND: #0F1111;
+    --NAV2-BACKGROUND: #0F1111;
+    --NAV3-TEXT: #000;
+    --NAV3-BACKGROUND: #d6d6d6;
+    --NAV4-TEXT: #000;
+    --NAV4-BACKGROUND: #fff;
+    --MAIN-TEXT:#0F1111;
+    --MAIN-BACKGROUND:#fff;
+    --TURQUOISE-LINK: #007185;
+    --RED-PRICE:#B12704!important;
+    --FOOTER-HEADER:  #C60!important;
+}

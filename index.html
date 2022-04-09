@@ -1,12 +1,348 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles/normalize.css" type="text/css">
+    <link rel="stylesheet" href="styles/colors.styles.css" type="text/css">
+    <link rel="stylesheet" href="styles/fonts.styles.css" type="text/css">
+    <link rel="stylesheet" href="index.desktop.styles.css" type="text/css">
+    <link rel="stylesheet" href="styles/footer/desktop.styles.css" type="text/css">
+    <link rel="stylesheet" href="styles/footer/slider/desktop.styles.css" type="text/css">
+    <link rel="stylesheet" href="styles/frequently_bought/desktop.styles.css" type="text/css">
+    <link rel="stylesheet" href="styles/header/desktop.styles.css" type="text/css">
+    <link rel="stylesheet" href="styles/header/navbar1/desktop.styles.css" type="text/css">
+    <link rel="stylesheet" href="styles/header/navbar2/desktop.styles.css" type="text/css">
+    <link rel="stylesheet" href="styles/header/coupon_bar/desktop.styles.css" type="text/css">
+    <link rel="stylesheet" href="styles/header/breadcrumbs/desktop.styles.css" type="text/css">
+    <link rel="stylesheet" href="styles/main/desktop.styles.css" type="text/css">
+    <link rel="stylesheet" href="styles/main/asideNavbarRight/desktop.styles.css" type="text/css">
+    <link rel="stylesheet" href="styles/main/middle_part/desktop.styles.css" type="text/css">
+    <link rel="stylesheet" href="styles/main/picture/desktop.styles.css" type="text/css">
+    <title>Amazon.com</title>
 </head>
+
 <body>
-    
+    <div id="container">
+
+        <header id="part1">
+            <nav id="search-bar" class="search-bar">
+                <a href="" id="search-bar__item1">
+
+                </a>
+                <a id="white_pin"></a>
+                <a href="" id="deliver_to">
+                    <h6>Deliver to Israel</h6>
+                    <h4>Jeruslaem 95</h4>
+                </a>
+                <div class="search-bar__item" id="search-bar__item2">
+                    <select name="search" id="search">
+                        <option value="rigatoni" selected>All Departments</option>
+                        <option value="dave">Arts & Crafts</option>
+                        <option value="pumpernickel">Automotive</option>
+                        <option value="reeses">Baby</option>
+                        <option value="rigatoni">Beauty & Personal Care</option>
+                        <option value="rigatoni">Books</option>
+                        <option value="rigatoni">Boy's Fashion</option>
+                        <option value="rigatoni">Computers</option>
+                        <option value="rigatoni">Deals</option>
+                        <option value="rigatoni">Digital Music</option>
+                        <option value="rigatoni">Electronics</option>
+                        <option value="rigatoni">Girl's Fashion</option>
+
+
+                    </select>
+                    <input type="text" id="input_search">
+                    <input type="submit" value="" id="submit">
+                </div>
+                <a id="flag_container">
+                    <a href="" id="flag"></a>
+                    <a href="" id="flag_arrow"></a>
+                </a>
+                <a href="" id="accounts_lists">
+                    <h6>Hello,Naama</h6>
+                    <h4>Accounts & Lists</h4>
+                </a>
+                <a href="" id="accounts_lists">
+                    <h6>Returns</h6>
+                    <h4>& Orders</h4>
+                </a>
+                <a href="" id="cart">
+                    <div id="cart_and_items">
+
+                        <span id="items_in_cart">0</span>
+                        <span id="cart_icon"></span>
+                    </div>
+                    <h4 id="cart_text">Cart</h4>
+                </a>
+
+            </nav>
+            <nav id="navigation-bar" class="navigation-bar">
+                <div class="navigation3">
+                    <a href="" id="navigation3__item1">All</a>
+                    <a href="" id="navigation3__item2">Today's Deals</a>
+                    <a href="" id="navigation3__item3">Buy Again</a>
+                    <a href="" id="navigation3__item4">Gift Cards</a>
+                    <a href="" id="navigation3__item5">Naama's Amazon.com</a>
+                    <a href="" id="navigation3__item6">Browsing History</a>
+                    <a href="" id="navigation3__item7">Customer Service</a>
+                    <a href="" id="navigation3__item8">Registry</a>
+                    <a href="" id="navigation3__item9">Sell</a>
+                    <a href="" id="navigation3__item10">Local Delivery in Israel</a>
+                </div>
+            </nav>
+            <div id="coupon-bar">
+                <a href="" id="upper_ad">
+                    <span id="pic1"></span>
+                    <span id="pic2"></span>
+                    <p>JBM Child & Adults Rider Series Protection Gear Set for Multi Sports Scooter</p>
+                    <span id="picture3"></span>
+                </a>
+            </div>
+            <nav id="bread-crumbs">
+                <span id="bread-crumbs_left">
+
+                    <a href="">Sports & Outdoors </a>
+                    <span> > </span>
+                    <a href="">Sports</a>
+                    <span> > </span>
+                    <a href=""> Skates, Skateboards & Scooters</a>
+                    <span>></span>
+                    <a href="">Skateboarding</a>
+                    <span>></span>
+                    <a href="">Skateboards & Caster Boards</a>
+                    <span>></span>
+                    <a href="">Standard Skateboards</a>
+                </span>
+                <a href="">Sponsored</a>
+            </nav>
+        </header>
+        <main id="part2">
+            <figure class="part2__picture" id="part2__picture">
+                <div id="picture__side-pictures">
+                    <a href="" class="picture__side-picture" id="picture__side-picture1"></a>
+                    <a href="" class="picture__side-picture" id="picture__side-picture2"
+                        onmouseover="changeImage(this)"></a>
+                    <a href="" class="picture__side-picture" id="picture__side-picture3"></a>
+                    <a href="" class="picture__side-picture" id="picture__side-picture4"></a>
+                    <a href="" class="picture__side-picture" id="picture__side-picture5"></a>
+                    <a href="" class="picture__side-picture" id="picture__side-picture6"></a>
+                    <a href="" class="picture__side-picture" id="picture__side-picture7"></a>
+                </div>
+                <div id="picture__main-picture"><img src="assets/images/left_images/1.jpg"
+                        id="picture__main-picture_img" alt="">
+                </div>
+            </figure>
+            <figcaption id="product-information">
+                <h1 id="main_header">Skateboards for Beginners 31 x 8 Inch，Soldow Complete Skateboard for Kids/ Teens/
+                    Adults, 7 Layer
+                    Canadian Maple Longboard Double Kick Concave Standard Trick Skateboards for Boys and Girls</h1>
+                <a href="" id="visit">Visit the Soldow Store</a>
+                <div id="product-information__text1">
+                    <span class="five_stars"></span>
+                    <span class="down_arrow"></span>
+                    <span class="rating"><a class="rating" href=""> 66 rating</a>
+                    </span>
+                </div>
+                <hr>
+                <div id="product-information__price">
+                    <p>Price:</p>
+                    <span class="big_price">$38.99</span>
+                </div>
+                <p>No Import Fees Deposit & $33.76 Shipping to Israel Details <span class="down_arrow"></span></p>
+                <div id="product-information__text2">Color: <strong> Great America</strong></div>
+                <ul class="other_options">
+                    <a id="blue" href="">
+                        <span class="other_options__pic"><img src="./assets/images/other_options/1.jpg" alt=""></span>
+                        <span class="other_options_price">$42.99</span>
+                    </a>
+                    <a id="eagle" href="">
+                        <span class="other_options__pic"><img src="./assets/images/other_options/2.jpg" alt=""></span>
+                        <span class="other_options_price">$42.99</span>
+                    </a>
+                    <a id="red-skull" href=""> <span class="other_options__pic"><img
+                                src="./assets/images/other_options/3.jpg" alt=""></span>
+                        <span class="other_options_price">$42.99</span>
+                    </a>
+                    <a id="pink-skull" href=""> <span class="other_options__pic"><img
+                                src="./assets/images/other_options/4.jpg" alt=""></span>
+                        <span class="other_options_price">$42.99</span>
+                    </a>
+
+                </ul>
+                <div class="sizes">
+                    <ul id="ul_sizes_first_col">
+                        <li>Brand</li>
+                        <li>Deck Width</li>
+                        <li>Material</li>
+                        <li>Deck Length</li>
+                        <li>Color</li>
+                        <li>Durometer Hardness </li>
+                    </ul>
+
+                    <ul id="ul_sizes_second_col">
+                        <li>Soldow</li>
+                        <li>8 Inches</li>
+                        <li>Maple</li>
+                        <li>31 Inches</li>
+                        <li>Great America</li>
+                        <li> 95A</li>
+                    </ul>
+                </div>
+                <div id="see_more_sizes">
+                    <span class="down_arrow"></span>
+                    <span><a href="">see more</a></span>
+                </div>
+                <hr>
+                <h4>About this item</h4>
+                <ul id="about_this_item">
+                    <li>STANDARD SKATEBOARD --- 31" x 8" sturdy & solid skateboard, 7 layers Canadian Maple wood deck
+                        match with no-slip and waterproof emery sand paper above, provide you a stable and safe deck.
+                        Besides, 5 inch reinforced aluminum alloy trucks provide you solid and reliable support. Maximum
+                        carrying weight of the skateboard is up to 220 pounds, fit for adults and kids beginners and
+                        professional skaters.</li>
+                    <li>DURABLE PU WHEELS & SMOOTH RIDE --- Adopted 48mm 95A High Rebound PU wheels match with carbon
+                        steel high-speed mute bearings & PU bushings, anti-shock and strong grip, fit for all smooth
+                        surface even some rough ground, provide you a smoothly, speed, and more safe glide.</li>
+                    <li>BETTER CONTROL FOR TRICKS --- Classic double kick concave design provide you safety experience
+                        and better control, also help you learn more tricks easily, such as sharp turns, pivots, slides
+                        and street skating.</li>
+                    <li>EXQUISITE PATTERN DESIGN --- Instead of easily broken sticker, these cool graphics are heat
+                        transfer printed, making the patterns look vivid and last much longer.</li>
+                    <li>NO ASSEMBLY REQUIRED --- The skateboards come with completed assembled, and will be an ideal
+                        gift for adults, teen boys and girls. The boards has passed maneuverability test on streets,
+                        ramps, and pools, thus we are confident with our product! And we provide excellent customer
+                        services: contact us if you have any question about our skateboards, all issues will be solved
+                        within 24 hours.</li>
+                </ul>
+            </figcaption>
+            <aside id="purchase-details">
+                <div id="purchase-details__container">
+                    <div id="purchase-details__container__price">
+                        <span class="big_price">$38.99</span>
+                    </div>
+                    <p>No Import Fees Deposit & $33.76 Shipping to Israel</p>
+                    <span>
+                        <p>Details</p>
+                    </span><span>arrow</span>
+                    <p>Delivery <strong> Monday, April 25.</strong> Order within 13 hrs 47 mins</p>
+                    <div><img class="pin" src="assets/images/pin.png"></img><a href="" id="deliver_to_israel">Deliver to
+                            Israel</a></div>
+                    <p>Only 7 left in stock - order soon.</p>
+                    <button id="qty_btn">
+
+                        <label for="qty">Qty:</label>
+                        <select name="qty" id="qty">
+                            <option value="" selected>1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                            <option value="">4</option>
+                            <option value="">5</option>
+                            <option value="">6</option>
+                            <option value="">7</option>
+                        </select>
+                    </button>
+
+                    <button id="add_to_cart">Add to Cart</button>
+                    <button id="buy_now">Buy Now</button>
+                    <div>
+
+                        <a href="" id="secure">Secure transaction</a>
+                    </div>
+                    <div id="ships_from">
+
+                        <ul id="ships_from_first_col">
+                            <li>Ships from</li>
+                            <li>Sold by</li>
+                            <li>Packaging</li>
+                        </ul>
+
+                        <ul id="ships_from_second_col">
+                            <li>Amazon</li>
+                            <li><a href="">hongeeer</a> </li>
+                            <li>
+                                Shows what’s inside. To hide</li>
+
+                        </ul>
+
+                    </div>
+                    <hr>
+                    <p>Details</p>
+                    <div>
+
+                        <p>Return policy:</p>
+                        <a id="eligible" href=""> Eligible for Return, Refund or Replacement within 30 days of receipt
+                        </a>
+                    </div>
+                    <div>
+
+                        <input type="checkbox" name="" id="">
+                        <p>Add a gift receipt for easy returns</p>
+                    </div>
+                    <hr>
+                    <button id="btn_add_to_list">Add to List</button>
+
+
+                </div>
+                <div id="social_media">
+                    <p>Share</p>
+                    <a href="" id="mail"></a>
+                    <a href="" id="facebook"></a>
+                    <a href="" id="twitter"></a>
+                    <a href="" id="pinterest"></a>
+                </div>
+            </aside>
+        </main>
+        <!-- <section id="frequently-bought">
+            <hr>
+            <h2>Frequently bought together</h2>
+            <figure id="frequently-bought__pictures">
+                <div id="frequently-bought__pictures_1"></div>
+                <div id="frequently-bought__pictures_2"></div>
+                <div id="frequently-bought__pictures_price"></div>
+                <h6></h6>
+                <input type="checkbox">
+                <input type="checkbox">
+            </figure>
+        </section>
+        <footer id="four-stars">
+            <hr>
+            <h2>4 stars and above</h2>
+            <h6>Sponsored</h6>
+            <section id="four-stars-examples">
+                <div class="example" id="example1">
+                    <figure></figure>
+                    <figcaption></figcaption>
+                </div>
+                <div class="example" id="example2">
+                    <figure></figure>
+                    <figcaption></figcaption>
+                </div>
+                <div class="example" id="example3">
+                    <figure></figure>
+                    <figcaption></figcaption>
+                </div>
+                <div class="example" id="example4">
+                    <figure></figure>
+                    <figcaption></figcaption>
+                </div>
+                <div class="example" id="example5">
+                    <figure></figure>
+                    <figcaption></figcaption>
+                </div>
+                <div class="example" id="example6">
+                    <figure></figure>
+                    <figcaption></figcaption>
+                </div>
+                <div class="example" id="example7">
+                    <figure></figure>
+                    <figcaption></figcaption>
+                </div>
+            </section>
+        </footer> -->
+    </div>
 </body>
+
 </html>
