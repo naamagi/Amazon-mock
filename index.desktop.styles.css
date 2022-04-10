@@ -46,9 +46,11 @@ a {
     padding-right: 3rem;
     padding-left: 1rem;
 }
-#address{
-    width:auto;
+
+#address {
+    width: auto;
 }
+
 #white_pin {
     background: url("./assets/sprite/white_pin.png") no-repeat;
     color: #d6d6d6;
@@ -66,12 +68,14 @@ a {
     margin: 0.3rem;
     padding: 0.2rem;
 }
-.search-bar__item{
-    display:flex;
+
+.search-bar__item {
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
+
 #search-bar h6 {
     font-size: 1.2rem;
     line-height: 1.4rem;
@@ -112,6 +116,7 @@ a {
     padding-left: none;
     width: 15px;
     height: 27px;
+
 }
 
 #deliver_to, #accounts_lists, #cart {
@@ -128,13 +133,21 @@ a {
     color: var(--NAV2-TEXT);
 }
 
+#flag_container, #pin_and_address {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+
 .navigation3 {
     display: flex;
     color: #d6d6d6;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     width: 68vw;
-    margin-left:3rem;
+    margin-left: 3rem;
+    gap: 2rem;
 }
 
 .navigation3>* {
@@ -489,18 +502,19 @@ a {
 
 }
 
+#add_to_cart,#buy_now  {
+   
+    border-radius: 20px;
+    padding: 0.7rem;
+    margin: 0.5rem;
+    text-align: center;
+}
 #add_to_cart {
     background-color: rgb(252, 214, 100);
-    border-radius: 20px;
-    padding: 0.7rem;
-    margin: 0.5rem;
 }
-
 #buy_now {
     background-color: orange;
-    border-radius: 20px;
-    padding: 0.7rem;
-    margin: 0.5rem;
+   
 }
 
 #secure {

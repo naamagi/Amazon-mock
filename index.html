@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="styles/main/asideNavbarRight/desktop.styles.css" type="text/css">
     <link rel="stylesheet" href="styles/main/middle_part/desktop.styles.css" type="text/css">
     <link rel="stylesheet" href="styles/main/picture/desktop.styles.css" type="text/css">
+    <link rel="stylesheet" media="(max-width: 500px)" href="index.desktop.styles.css" type="text/css">
     <title>Amazon.com</title>
 </head>
 
@@ -32,35 +33,38 @@
                 <a href="" id="search-bar__item1">
 
                 </a>
-                <a id="white_pin"></a>
-                <a href="" id="deliver_to">
-                    <h6>Deliver to Israel</h6>
-                    <h4>Jeruslaem 95</h4>
-                </a>
+                <div id="pin_and_address">
+
+                    <a id="white_pin"></a>
+                    <div href="" id="deliver_to">
+                        <h6>Deliver to Israel</h6>
+                        <h4>Jeruslaem 95</h4>
+                    </div>
+                </div>
                 <div class="search-bar__item" id="search-bar__item2">
                     <select name="search" id="search">
-                        <option value="rigatoni" selected>All Departments</option>
-                        <option value="dave">Arts & Crafts</option>
-                        <option value="pumpernickel">Automotive</option>
-                        <option value="reeses">Baby</option>
-                        <option value="rigatoni">Beauty & Personal Care</option>
-                        <option value="rigatoni">Books</option>
-                        <option value="rigatoni">Boy's Fashion</option>
-                        <option value="rigatoni">Computers</option>
-                        <option value="rigatoni">Deals</option>
-                        <option value="rigatoni">Digital Music</option>
-                        <option value="rigatoni">Electronics</option>
-                        <option value="rigatoni">Girl's Fashion</option>
+                        <option value="" selected>All Departments</option>
+                        <option value="">Arts & Crafts</option>
+                        <option value="">Automotive</option>
+                        <option value="">Baby</option>
+                        <option value="">Beauty & Personal Care</option>
+                        <option value="">Books</option>
+                        <option value="">Boy's Fashion</option>
+                        <option value="">Computers</option>
+                        <option value="">Deals</option>
+                        <option value="">Digital Music</option>
+                        <option value="">Electronics</option>
+                        <option value="">Girl's Fashion</option>
 
 
                     </select>
                     <input type="text" id="input_search">
                     <input type="submit" value="" id="submit">
                 </div>
-                <a id="flag_container">
+                <div id="flag_container">
                     <a href="" id="flag"></a>
                     <a href="" id="flag_arrow"></a>
-                </a>
+                </div>
                 <a href="" id="accounts_lists">
                     <h6>Hello,Naama</h6>
                     <h4>Accounts & Lists</h4>
@@ -245,8 +249,8 @@
                         </select>
                     </button>
 
-                    <button id="add_to_cart">Add to Cart</button>
-                    <button id="buy_now">Buy Now</button>
+                    <a id="add_to_cart"href="">Add to Cart</a>
+                    <a id="buy_now" href="">Buy Now</a>
                     <div>
 
                         <a href="" id="secure">Secure transaction</a>
